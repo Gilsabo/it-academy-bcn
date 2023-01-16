@@ -1,6 +1,79 @@
-
 $primary: #5265E1;
-$secondary:#FA5959;
+$secondary: #FA5959;
+$nav-tabs-border-width: none;
+$nav-link-color:                    gray;
+$nav-tabs-link-active-color:        black;
+
+*{
+    outline: 1px border black;
+}
+
+#nav-Simple-Bookmarking-tab,
+#nav-Speedy-Searching-tab,
+#nav-Esey-Sharing-tab{
+    border-bottom: 1px solid gainsboro;
+    padding:1.25rem 2.25rem;
+}
+
+
+
+#nav-Simple-Bookmarking-tab:hover,
+#nav-Speedy-Searching-tab:hover,
+#nav-Esey-Sharing-tab:hover {
+    color:$secondary;
+}
+
+
+#nav-Simple-Bookmarking-tab.active,
+#nav-Speedy-Searching-tab.active,
+#nav-Esey-Sharing-tab.active{
+    border-bottom: 3px solid $secondary;
+}
+
+
+
+
+
+
+
+
+
+#navbarNavAltMarkup {
+
+    .navbar-nav {
+
+        .nav-link:hover {
+            color: #FA5959;
+        }
+        .btn:hover{
+                background-color: white;
+                border: #FA5959 2px solid;
+                color:#FA5959 !important;
+        }
+    }
+}
+
+
+
+#hover-google:hover{
+    border:$primary 1px solid;
+    background-color: white;
+    color: $primary;
+
+}
+
+#hover-firefox:hover{
+    border: gray 1px solid;
+    background-color: white;
+    color:gray;
+
+}
+
+
+
+
+
+
 
 
 
