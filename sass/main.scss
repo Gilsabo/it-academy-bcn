@@ -1,18 +1,18 @@
 $primary: #5265E1;
 $secondary: #FA5959;
 $nav-tabs-border-width: none;
-$nav-link-color:                    gray;
-$nav-tabs-link-active-color:        black;
-$card-border-width:                 none;
-$card-img-overlay-padding:          80px;
+$nav-link-color: gray;
+$nav-tabs-link-active-color: black;
+$card-border-width: none;
+$card-img-overlay-padding: 80px;
 
 
 
 #nav-Simple-Bookmarking-tab,
 #nav-Speedy-Searching-tab,
-#nav-Esey-Sharing-tab{
+#nav-Esey-Sharing-tab {
     border-bottom: 1px solid gainsboro;
-    padding:1.25rem 2.25rem;
+    padding: 1.25rem 2.25rem;
 }
 
 
@@ -20,13 +20,13 @@ $card-img-overlay-padding:          80px;
 #nav-Simple-Bookmarking-tab:hover,
 #nav-Speedy-Searching-tab:hover,
 #nav-Esey-Sharing-tab:hover {
-    color:$secondary;
+    color: $secondary;
 }
 
 
 #nav-Simple-Bookmarking-tab.active,
 #nav-Speedy-Searching-tab.active,
-#nav-Esey-Sharing-tab.active{
+#nav-Esey-Sharing-tab.active {
     border-bottom: 3px solid $secondary;
 }
 
@@ -38,54 +38,72 @@ $card-img-overlay-padding:          80px;
         .nav-link:hover {
             color: $secondary;
         }
-        .btn:hover{
-                background-color: white;
-                border: $secondary 2px solid;
-                color:$secondary !important;
+
+        .btn:hover {
+            background-color: white;
+            border: $secondary 2px solid;
+            color: $secondary  !important;
         }
     }
 }
 
 
 
-.btn-primary{
+.btn-primary,
+#hover-firefox {
     font-size: 0.72rem !important;
 
 }
 
-#hover-firefox:hover{
+#hover-firefox:hover {
     border: gray 1px solid;
     background-color: white;
-    color:gray;
+    color: gray;
+    font-size: 0.72rem;
 
 }
 
-.tilt:nth-child(2n){
-    margin-top:50px;
+.tilt:nth-child(2n) {
+    margin-top: 50px;
 }
 
-.tilt:nth-child(3){
+.tilt:nth-child(3) {
     margin-top: 100px !important;
 }
 
 
 #resize-google,
 #resize-firefox,
-#resize-opera{
-        width: 95px;
-        height: 95px;
-        margin: 40px auto;
-        
-    }
+#resize-opera {
+    width: 95px;
+    height: 95px;
+    margin: 40px auto;
 
-    .btn-primary:hover{
-        border:$primary 1px solid !important;
-        background-color: white !important;
-        color: $primary !important;
-    }
+}
+
+.btn-primary:hover {
+    border: $primary 1px solid !important;
+    background-color: white !important;
+    color: $primary  !important;
+}
+
+.footer-color{
+    background-color: rgba(36,41,70,255);
+}
 
 
 
+
+.hover-secondary:hover{
+    color: $secondary !important;
+}
+
+
+//perquè path?//
+
+svg:hover path{
+fill: $secondary;
+}
 
 
 
