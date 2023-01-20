@@ -71,12 +71,10 @@ $accordion-button-focus-border-color:     none;
 
 
 
-#resize-google,
-#resize-firefox,
-#resize-opera {
-    width: 95px;
-    height: 95px;
-    margin: 40px auto;
+.resize-nav {
+    width: 95px !important;
+    height: 95px !important;
+    margin: 40px auto !important;
 
 }
 
