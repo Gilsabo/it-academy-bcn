@@ -18,26 +18,19 @@ $accordion-button-focus-border-color:     none;
 }
 
 
-#nav-Simple-Bookmarking-tab,
-#nav-Speedy-Searching-tab,
-#nav-Esey-Sharing-tab {
-    border-bottom: 1px solid gainsboro;
-    padding: 1.25rem 2.25rem;
+.border-nav {
+    border-bottom: 1px solid gainsboro !important;
+    padding: 1.25rem 2.25rem !important;
 }
 
 
-
-#nav-Simple-Bookmarking-tab:hover,
-#nav-Speedy-Searching-tab:hover,
-#nav-Esey-Sharing-tab:hover {
-    color: $secondary;
+.border-nav:hover {
+    color: $secondary !important;
 }
 
 
-#nav-Simple-Bookmarking-tab.active,
-#nav-Speedy-Searching-tab.active,
-#nav-Esey-Sharing-tab.active {
-    border-bottom: 3px solid $secondary;
+.border-nav.active {
+    border-bottom: 3px solid $secondary !important;
 }
 
 
