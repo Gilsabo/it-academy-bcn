@@ -104,5 +104,25 @@ svg:hover path {
     fill: $secondary;
 }
 
+.row{
+    .col-12{
+
+        .btn-secondary{
+            background-color:$secondary ;
+            border: $secondary 2px solid;
+            color: white ;
+        }
+
+        .btn-secondary:hover{
+            background-color: white ;
+            border: $secondary 2px solid;
+            color: $secondary !important;
+        }
+
+    }
+}
+
+
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
