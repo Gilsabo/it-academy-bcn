@@ -297,7 +297,7 @@
                 </div>
             </div>
 
-            <form class="row justify-content-center was-validated">
+            <form class="row justify-content-center needs-validation" novalidate>
                 <div class="col-12 col-lg-6 w-auto">
                     <input type="email" class="form-control w-auto" id="emailAdress"
                         placeholder="Enter your email adress" aria-label="First name" required>
@@ -346,6 +346,25 @@
         </div>
     </footer>
     <script src="./node_modules/bootstrap/dist/js//bootstrap.js"></script>
+    <script>(function () {
+        'use strict'
+      
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+      
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+          .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+              }
+      
+              form.classList.add('was-validated')
+            }, false)
+          })
+      })()</script>
 </body>
 
 </html>

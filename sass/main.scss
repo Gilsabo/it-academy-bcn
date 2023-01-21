@@ -10,12 +10,15 @@ $form-feedback-icon-invalid:        url("data:image/svg+xml,<svg xmlns='http://w
 $form-feedback-invalid-color:       white;
 $form-feedback-margin-top:          0px;
 $input-btn-focus-box-shadow: none !important;
-.form-control:focus{
-border: $secondary 2px solid !important;
-border-radius: 5px 5px 0px 0px;
+
+
+.was-validated .form-control:invalid, .form-control.is-invalid{
+    border:2px $secondary solid !important;
+    border-radius: 5px 5px 0px 0px;
 }
+
 .invalid-feedback{
-    border-radius: 0px 0px 5px 5px;  
+    border-radius:0px 0px 5px 5px;
 }
 
 
