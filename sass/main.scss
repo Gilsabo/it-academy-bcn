@@ -1,16 +1,89 @@
 $primary: #5265E1;
 $secondary: #FA5959;
+
+
+//Buttons nav//
+
+#navbarNav {
+
+    .navbar-nav {
+
+        .nav-link:hover {
+            color: $secondary;
+        }
+        .btn{
+            border:$secondary 2px solid;
+        }
+        .btn:hover {
+            background-color: white;
+            border: $secondary 2px solid;
+            color: $secondary  !important;
+        }
+    }
+}
+
+
+// BUTTONS FIRST PART//
+
+.btn-primary,
+#hover-firefox {
+    font-size: 0.72rem !important;
+}
+
+#hover-firefox:hover {
+    border: gray 1px solid;
+    background-color: white;
+    color: gray;
+    font-size: 0.72rem;
+}
+
+.btn-primary:hover {
+    border: $primary 1px solid !important;
+    background-color: white !important;
+    color: $primary  !important;
+}
+
+.hover-secondary:hover {
+    color: $secondary  !important;
+}
+
+
+
+//NAV FUNCIONALITY PART//
+
 $nav-tabs-border-width: none;
 $nav-link-color: gray;
 $nav-tabs-link-active-color: black;
+
+.border-nav {
+    border-bottom: 1px solid gainsboro !important;
+    padding: 1.25rem 2.25rem !important;
+}
+
+.border-nav:hover {
+    color: $secondary  !important;
+}
+
+.border-nav.active {
+    border-bottom: 3px solid $secondary  !important;
+}
+
+//CARD PART//
+
 $card-border-width: none;
 $card-img-overlay-padding: 80px;
+.resize-nav {
+    width: 95px !important;
+    height: 95px !important;
+    margin: 40px auto !important;
+}
+
+//FORM PART//
 
 $form-feedback-icon-invalid:        url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><g fill='none' fill-rule='evenodd'><circle cx='10' cy='10' r='10' fill='#FA5959'/><g fill='#FFF' transform='translate(9 5)'><rect width='2' height='7' rx='1'/><rect width='2' height='2' y='8' rx='1'/></g></g></svg>");
 $form-feedback-invalid-color:       white;
 $form-feedback-margin-top:          0px;
 $input-btn-focus-box-shadow: none !important;
-
 
 .was-validated .form-control:invalid, .form-control.is-invalid{
     border:2px $secondary solid !important;
@@ -34,78 +107,17 @@ $accordion-button-focus-border-color: none;
     color: $secondary;
 }
 
+//Footer//
 
-.border-nav {
-    border-bottom: 1px solid gainsboro !important;
-    padding: 1.25rem 2.25rem !important;
-}
-
-
-.border-nav:hover {
-    color: $secondary  !important;
-}
-
-
-.border-nav.active {
-    border-bottom: 3px solid $secondary  !important;
-}
-
-
-#navbarNav {
-
-    .navbar-nav {
-
-        .nav-link:hover {
-            color: $secondary;
-        }
-        .btn{
-            border:$secondary 2px solid;
-        }
-        .btn:hover {
-            background-color: white;
-            border: $secondary 2px solid;
-            color: $secondary  !important;
-        }
-    }
-}
-
-
-
-.btn-primary,
-#hover-firefox {
-    font-size: 0.72rem !important;
-}
-
-#hover-firefox:hover {
-    border: gray 1px solid;
-    background-color: white;
-    color: gray;
-    font-size: 0.72rem;
-}
-
-.resize-nav {
-    width: 95px !important;
-    height: 95px !important;
-    margin: 40px auto !important;
-}
-
-.btn-primary:hover {
-    border: $primary 1px solid !important;
-    background-color: white !important;
-    color: $primary  !important;
+svg:hover path { //Change color whehn hover icons froms footer//
+    fill: $secondary;
 }
 
 .footer-color {
     background-color: rgba(36, 41, 70, 255);
 }
 
-.hover-secondary:hover {
-    color: $secondary  !important;
-}
-
-svg:hover path {
-    fill: $secondary;
-}
+//Button form hover effect//
 
 .row{
     .col-12{
