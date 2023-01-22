@@ -47,6 +47,33 @@ $secondary: #FA5959;
     color: $secondary  !important;
 }
 
+//Background image prurple//
+
+ .background-purple-right{
+        position: absolute;
+        background-color: $primary;
+        z-index: -1;
+        width: 300%;
+        height: 75%;
+        top: 30%;
+        left: 30%;
+        
+        
+}
+
+.background-purple-left{
+    position: absolute;
+    background-color: $primary;
+    z-index: -1;
+    width: 300%;
+    height: 95%;
+    top: 25%;
+    right: 20%;
+        
+    
+}
+
+
 
 
 //NAV FUNCIONALITY PART//
