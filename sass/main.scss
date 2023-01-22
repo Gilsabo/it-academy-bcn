@@ -2,6 +2,16 @@ $primary: #5265E1;
 $secondary: #FA5959;
 
 
+//nav togller from nav section//
+.navbar-toggler{
+    border:none !important;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+
 //Buttons nav//
 
 #navbarNav {
@@ -53,7 +63,7 @@ $secondary: #FA5959;
         position: absolute;
         background-color: $primary;
         z-index: -1;
-        width: 300%;
+        width: 150%;
         height: 75%;
         top: 30%;
         left: 30%;
